@@ -9,11 +9,13 @@ The number of samples included in the dataset is small, so generative neural net
 - In the beginning, the generative neural network will find it difficult to understand exactly what is required of it, but with time, the generative network will realize that it has to generate a mask so that if it is applied to the panoramic image, we will extract areas of the teeth with the same characteristics and specifications that the distinguished one studied.
 - The main idea is to make the hashing task not easy and requires awareness on the part of the generator of what it should generate, since I did not tell it exactly what it should generate, but rather I left it to him to realize what he should generate.
 As I mentioned, with time the generator will understand the idea and therefore will work on generating the mask without being asked to do so openly.
+# Dataset used:
+https://www.kaggle.com/datasets/truthisneverlinear/childrens-dental-panoramic-radiographs-dataset
+
 # Samples of Dataset:
 |  |
 | :---:   |
 | ![__results___10_1](https://github.com/kaledhoshme123/Adult-tooth-segmentation-U-net-based-GAN-/assets/108609519/3ec7e4ba-2ca9-4fe0-a655-678be0c1eeaf)|
-
 
 # Results:
 | Results | #validation data    | #training data    |
